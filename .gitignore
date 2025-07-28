@@ -1,0 +1,44 @@
+# Ambiente virtual
+venv/
+
+# VSCode (tasks, configs locais)
+.vscode/
+
+# Arquivos temporários e caches do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# Modelos baixados do Ollama
+.ollama/models/
+.ollama/download/
+
+# Arquivos do sistema (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos temporários criados por editores
+*.swp
+*.swo
+*.swn
+*~
+
+# Arquivos de histórico (se usar readline ou outros)
+.python_history
+
+# Backup ou arquivos de build manuais
+*.bak
+*.old
+*.orig
+
+# Arquivos exportados do projeto ou logs de execução
+/export/
+logs/
