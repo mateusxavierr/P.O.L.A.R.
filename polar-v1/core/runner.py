@@ -1,6 +1,7 @@
 from audio.audio import Recorder, Transcriber, Speaker
 from ui.hotkey import Hotkey
 from core.ai import AI
+import core.memory as memory
 import warnings
 import numpy
 import ui.textbank as textbank
@@ -30,8 +31,11 @@ def execute() -> None:
     print(ai.response)
     
     speaker.speak(ai.response, transcriber.language)
+
+    memory.table()
+    memory.insert_interaction(transcriber.transcription, ai.response)
         
 hotkey = Hotkey(execute)
 
-def run():
+def run() -> None:
     hotkey.listener()
