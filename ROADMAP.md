@@ -4,18 +4,16 @@
 - [x]  Gravar áudio via `sounddevice`
 - [x]  Transcrever com `faster-whisper`
 - [x]  Enviar texto para IA local (OpenHermes/Ollama)
-- [ ]  Executar comandos simples com voz (abrir apps, timers)
-- [ ]  Armazenar interações em SQLite
-- [ ]  Buscar interações anteriores por comandos
-- [ ]  Reconhecer comandos como "modo estudo", "modo foco"
-- [ ]  Executar rotinas (abrir VSCode, Udemy etc.)
-- [ ]  Registrar todas as interações (texto, resposta, hora)
+- [x]  Armazenar interações em SQLite
+- [x]  Buscar interações anteriores por comandos
+- [x]  Executar comandos simples com voz (abrir apps)
+- [x]  Reconhecer comandos como "modo foco"
 - [ ]  Responder à pergunta “o que fiz hoje?”
-- [ ]  Criar lembretes via comando de voz
-- [ ]  Alertar com voz (say) ou notificação de sistema
 
 ### Fase 2 – Núcleo de utilidade pessoal
 
+- [ ]  Criar lembretes via comando de voz
+- [ ]  Alertar com voz (say) ou notificação de sistema
 - [ ]  Gerar briefing matinal com metas e compromissos
 - [ ]  Gerar resumo noturno com base no histórico
 - [ ]  Criar log de produtividade (ações, tempo focado)

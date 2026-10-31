@@ -1,3 +1,5 @@
-from core.runner import run
+from core.orchestrator import execute
+from core.memory import get_interactions
 
-run()
+get_interactions(3)
+execute()
